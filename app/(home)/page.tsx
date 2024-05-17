@@ -1,3 +1,4 @@
+import { API_URL } from "../constants";
 import Billion from "../../components/billion";
 import styles from "../../styles/home.module.css";
 
@@ -13,8 +14,6 @@ interface IBillion {
   netWorth: number
   industries: string[]
 }
-
-export const API_URL = "https://billions-api.nomadcoders.workers.dev/";
 
 async function getBillions() {
   const response = await fetch(API_URL);
