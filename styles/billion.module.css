@@ -1,0 +1,36 @@
+.billion {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  cursor: pointer;
+  place-items: center;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.billion:hover {
+  opacity: 1;
+}
+
+.billion img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+}
+
+.billion a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.billion h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.billion h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}

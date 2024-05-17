@@ -1,0 +1,18 @@
+.header {
+  margin: 0 150px;
+  display: flex;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header div {
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.header span {
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
